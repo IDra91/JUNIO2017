@@ -1,0 +1,9 @@
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.exe.config
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.exe
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\bin\Debug\HojaDeTrabajo1.pdb
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.csprojResolveAssemblyReference.cache
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.Form1.resources
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.Properties.Resources.resources
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.csproj.GenerateResource.Cache
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.exe
+c:\users\manuel\documents\visual studio 2013\Projects\HojaDeTrabajo1\HojaDeTrabajo1\obj\Debug\HojaDeTrabajo1.pdb
