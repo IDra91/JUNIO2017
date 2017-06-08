@@ -27,5 +27,66 @@ namespace HojaDeTrabajo1
             return new string(arreglo);
 
         }
+
+        public String vocales(string cadena)
+        {
+            bool a = false;
+            bool e = false;
+            bool I = false;
+            bool o = false;
+            bool u = false;
+            char caracter;
+            int estadoActual = 0;
+            for (int i = 0; i < cadena.Length; i++)
+            {
+                caracter = cadena[i];
+                // Esto lo que hace es que separa la cadena que necesitás en caracteres
+                switch (estadoActual)
+                {
+                    case 0:
+                        if ((a = true) && (e = true) && (I = true) && (o = true) && (u = true))
+                        {
+                            estadoActual = 1;
+                        }
+                        else
+                        {
+                            if (caracter == 'a')
+                            {
+                                estadoActual = 0;
+                                a = true;
+                            }
+                            else if (caracter == 'e')
+                            {
+                                estadoActual = 0;
+                                e = true;
+                            }
+                            else if (caracter == 'i')
+                            {
+                                estadoActual = 0;
+                                I = true;
+                            }
+                            else if (caracter == 'o')
+                            {
+                                estadoActual = 0;
+                                o = true;
+                            }
+                            else if (caracter == 'u')
+                            {
+                                estadoActual = 0;
+                                u = true;
+                            }
+                            else estadoActual = 0;
+                        }
+
+                        break;
+
+                    case 1:
+                        return "Cumple";
+
+                }
+            }
+            return "No cumple";
+        }
+
     }
 }
