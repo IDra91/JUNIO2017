@@ -88,5 +88,16 @@ namespace HojaDeTrabajo1
             return "No cumple";
         }
 
+        public int regla(int n1, int n2, int n3)
+        {
+            int parcial = 0;
+            int final = 0;
+
+            parcial = (n2 / n1);
+            final = parcial * n3;
+            return final;
+        }
+
+
     }
 }
